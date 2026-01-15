@@ -26,10 +26,10 @@ That's it! Easy as pie!
 You may not always want everybody to see the contents of your log files, so securing the logviewer.php in some way is advised. If you are running it from an Apache webserver, this can easily be done by using a .htaccess file.
 Simply create a new file in the same folder as the logviewer, and name it .htaccess. Here is an example of what the file should contain.
 
-`AuthType Basic  
-AuthName "Members Only"  
-AuthUserFile /var/www/yourwebsite/logviewer/.htpasswd  
-require valid-user`  
+`AuthType Basic`  
+`AuthName "Members Only"`  
+`AuthUserFile /var/www/yourwebsite/logviewer/.htpasswd`  
+`require valid-user`  
 
 Then you must create the .htpasswd with a username and password. This is easily done by entering a command like this one
 
