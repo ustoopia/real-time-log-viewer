@@ -10,13 +10,19 @@ Copy the logviewer.php file to your web folder somewhere, preferably in a folder
 Open the logviewer.php file in a text editor, and specify these variables at the top of the file.
 
 `$log_folder = '/your/folder/location';`
+
 `$refresh_timer = 3000;`
 `$tail_lines    = 50;`
 
+
 `$logs = [`
+
 `'Server'     => $log_folder . 'Server.log',`
+
 `'Errors'     => $log_folder . 'Errors.log',`
+
 `'Playerbots' => $log_folder . 'Playerbots.log',`
+
 `'Auth'       => $log_folder . 'Auth.log'`
 
 That's it! Easy as pie!
