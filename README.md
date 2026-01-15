@@ -1,4 +1,4 @@
-# real-time-log-viewer
+# Real-time-log-viewer
 A simple PHP file that shows the logs you specify, in real-time, in a web browser. 
 
 Built initially to show log files for AzerothCore, but it can be used for basically any set of log files that are stored in the same folder.
